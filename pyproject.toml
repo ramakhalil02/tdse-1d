@@ -1,0 +1,19 @@
+[project]
+name = "tdse"
+version = "0.1.0"
+description = "1D TDSE solver for harmonic oscillator with Gaussian perturbations (BSc Thesis refactor)"
+authors = [{name="Rama Khalil"}]
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+  "numpy>=1.26",
+  "matplotlib>=3.8",
+  "scipy>=1.11",
+]
+
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project.scripts]
+tdse = "tdse.main:cli"

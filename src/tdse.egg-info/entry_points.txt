@@ -1,0 +1,2 @@
+[console_scripts]
+tdse = tdse.main:cli
