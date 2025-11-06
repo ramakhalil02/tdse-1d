@@ -1,13 +1,13 @@
 # TDSE – 1D Harmonic Oscillator with Perturbations
 
-Refactored from the BSc thesis *"Numerical solutions to the time-dependent Schrödinger equation for a model problem"*.
+Refactored from my BSc thesis *"Numerical solutions to the time-dependent Schrödinger equation for a model problem"*.
 
 ## Features
-- Finite-difference discretization of 1D Hamiltonian
-- Harmonic oscillator base potential (ω=1 by default)
-- Symmetric Gaussian bump and antisymmetric bimodal Gaussian perturbations
+- Finite-difference discretization of the Hamiltonian
+- 1D Harmonic oscillator base potential (ω=1 by default)
+- Symmetric and antisymmetric bimodal Gaussian perturbations
 - Eigen-solve for stationary states
-- Time propagation using instantaneous eigen-decomposition (per thesis Eq. (42))
+- Time propagation using instantaneous eigen-decomposition 
 - Matplotlib plots and **automatic animation saving** (MP4 if ffmpeg is available, else GIF)
 
 ## Install (editable)
